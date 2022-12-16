@@ -1,0 +1,269 @@
+/* Reset CSS */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family:helvetica,arial,sans-serif;
+}
+
+
+.font_text_24px {
+    font-size: 24px;
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+margin: 10px 0px;
+}
+#padding {
+    padding: 8px 16px !important;
+}
+
+#header {
+    
+background-color: white;
+color:black !important;
+padding: 8px 16px;
+height: 46px;
+letter-spacing: 4px;
+width:100%;
+display: block;
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+overflow: hidden;
+line-height: 1.5;
+font-size: 15px;
+}
+.nav {
+position: fixed ;
+top: 0;
+left: 0;
+right: 0;
+overflow: hidden;
+}
+#header .nav .nav_un:hover {
+    background-color: #ccc;
+    border: none;
+}
+
+
+
+.nav .nav_un {
+    list-style: none;
+    text-decoration: none !important;
+    color:inherit;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    font-family: Verdana,sans-serif;
+}
+.nav .nav_un .br {
+    font-weight: bolder;
+    text-align: center;
+    justify-items: center;
+}
+.nav .float {
+    float: right;
+   
+    
+}
+
+.picture .image_center {
+    text-align: center; 
+    color:white;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-170%,-50%);
+    
+}
+.picture .image_center2 {
+    text-align: center; 
+    color:white;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-50%);
+}
+
+.picture .image_head {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    vertical-align: middle;
+   
+}
+.picture .center_picture {
+    background-color: black;
+    padding: 8px 16px;
+    
+opacity: 0.75;
+}
+
+#projects {
+padding: 8px 16px;
+}
+
+#projects .around_project {
+    padding: 32px 16px;
+}
+
+#projects .around_project .character_projects {
+color: black;
+padding:16px 0px;
+margin:10px 0px;
+font-size: 24px;
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+border-bottom: 1px solid #f1f1f1;
+}
+#projects .list_house {
+    padding: 0px 8px;
+
+}
+#projects .list_house .four_house {
+    float:left;
+    width:49.999999%;
+    padding: 0px 8px;
+    position: relative;
+    margin-bottom: 16px;
+    
+}
+
+#projects .list_house .four_house .first_house {
+    position: absolute;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    
+
+}
+
+#about {
+padding-bottom: 36px;
+}
+
+#about .text_about {
+border-bottom: 1px solid #f1f1f1;
+color: black;
+padding:10px 0px;
+margin: 16px 0px;
+font-size: 24px;
+font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+width: auto;
+height: auto;
+}
+#about .content_about {
+    padding-bottom: 40px;
+}
+
+#about .scale .four_people {
+    float: left;
+    width: 49.99999%;
+    padding: 0px 8px;
+   
+    margin-bottom: 16px;
+   
+}
+
+.four_people .role_scale {
+    opacity: 0.6;
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.four_people .story_scale {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Verdana,sans-serif;
+    margin: 15px 0px;
+}
+
+.four_people .button_contact {
+    border: none;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+}
+.four_people .button_contact:hover {
+    background-color: #ccc;
+}
+
+
+
+#contact .text_contact {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 16px 0px;
+    
+}
+
+#contact .title_contact {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+
+#contact .write_contact {
+    width: 100%;
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    margin: 8px;
+}
+
+#contact .hover_contact {
+    background-color: black;
+    color: white;
+    margin: 16px 0px;
+    padding:8px 16px;
+}
+
+#contact .hover_contact:hover {
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+.map {
+    padding: 0px 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+#footer {
+    text-align: center;
+    align-items: center;
+    background-color: black;    
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 15px 0px;
+      width: 100%;
+    color: white !important;
+    font-family: Verdana,sans-serif;
+    
+    
+}
+#footer .Powered_by {
+    
+    margin: 15px 0px; 
+}
+
+#footer .w3_css {
+   
+    
+    color: inherit;
+}
+ 
+
+
+
