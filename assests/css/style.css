@@ -100,6 +100,7 @@ overflow: hidden;
     height: auto;
     position: relative;
     vertical-align: middle;
+    width: 100%;
    
 }
 .picture .center_picture {
